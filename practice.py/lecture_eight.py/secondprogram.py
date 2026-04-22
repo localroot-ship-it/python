@@ -83,17 +83,6 @@ car2=toyotacar("prius")
 print(car2.name)
 
 
-#traffic light checking through conditional statement
-light=input("enter color :")
-if (light=="red"):
-   print("stop")
-elif (light=="yellow"):
-   print("look around")
-elif(light=="green"):
-   print("go go...")
-else:
-   print("light is broken")
-
 #grade checking through conditional satements
 marks=int(input("enter your marks :"))
 if(marks>=90):
