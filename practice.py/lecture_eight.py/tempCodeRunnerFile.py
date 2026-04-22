@@ -1,0 +1,1 @@
+print(s2.name,s2.marks)
