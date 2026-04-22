@@ -1,10 +1,10 @@
-# class Student:
-#     name="naveed"
-#     s1= Student()
-#     print(s1)
+class Student:
+ name="naveed"
+ s1= Student()
+   print(s1)
               
 #traffic light chrcking throught conditional statements 
-"""light=input("light color :")
+light=input("light color :")
 if (light=="red"):
     print("stop")
 elif(light=="yellow"):
@@ -33,7 +33,7 @@ if(a==b and b==c and a==c):
 elif(a==b and b!=c and a!=c):
     print("isosceles triangle")
 else:
-    print("scalene triangle")"""
+    print("scalene triangle")
 
 # login credentials in conditional statement
 correct_username="naveed"
