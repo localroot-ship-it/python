@@ -25,3 +25,19 @@ password=""
 for i in range(pass_len):
     password+=random.choice(charValues)
 print("your random password is ",password)
+
+#second other method for password generator
+import random
+import string
+pass_len=10
+charValues=string.ascii_letters + string.digits + string.punctuation
+res="*".join([random.choice(charValues) for i in range(pass_len)])
+print(res)
+
+
+
+
+
+
+
+
